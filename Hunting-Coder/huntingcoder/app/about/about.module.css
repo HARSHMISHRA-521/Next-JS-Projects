@@ -1,0 +1,75 @@
+/* styles/about.module.css */
+.container {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 800px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+.title {
+  font-size: 2.5em;
+  margin-bottom: 40px;
+  color: rgb(43, 247, 12); 
+  
+}
+
+.description {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  text-align:left;
+}
+
+.projectList {
+  text-align: left;
+  margin-bottom: 20px;
+  padding-left: 20px;
+}
+
+.projectList li {
+  margin-bottom: 10px;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.profileImage {
+  border-radius: 50%;
+  margin-bottom: 20px;
+  border-color: rgb(43, 247, 12); 
+}
+
+.profileDetails {
+  margin-top: 20px !important;
+}
+
+.profileTitle {
+  color: skyblue !important;
+}
+
+.profileDetails a {
+  color: white !important;
+  text-decoration: none !important;
+}
+
+.profileDetails a:hover {
+  color: rgb(43, 247, 12) !important;
+}
+
+/* styles/about.module.css */
+.customAnchor {
+  color: white;
+  text-decoration: none; /* Remove underline */
+}
+
+.customAnchor:hover {
+  color: rgb(43, 247, 12); /* Change color on hover */
+}
