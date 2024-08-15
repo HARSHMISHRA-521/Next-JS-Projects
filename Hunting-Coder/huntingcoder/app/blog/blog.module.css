@@ -1,0 +1,38 @@
+.blogs {
+  margin: 2rem;
+}
+
+.blogs h2 {
+  margin: 1rem;
+  color: rgb(249, 251, 249);
+  display: flex;
+  justify-content: center;
+}
+
+.blogs h3:hover {
+  color: rgb(16, 102, 2);   
+}
+
+.blogs h3 {
+  color: rgb(43, 247, 12);
+  cursor: pointer;
+}
+
+.blogitem {
+  padding: 1rem;
+}
+
+.container {
+  padding: 0 2rem;
+}
+
+.main {
+  min-height: 100vh;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 1rem;
+  color: white;
+}

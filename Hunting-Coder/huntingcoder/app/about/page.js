@@ -16,7 +16,7 @@ const About = () => {
         , the author. It has blogs for hunting coders who are hunting for
         skills.{" "}
         He is
-         a Software Development Intern at Kickdrum India, has worked on several
+         a Software Development Intern at SecureU and ex-SDE Intern at Kickdrum India and TA at ApnaCollege,and  has worked on several
         impactful projects such as:
       </p>
 

@@ -1,0 +1,69 @@
+.blogs {
+  margin: 2rem;
+}
+
+.blogs h2 {
+  margin: 1rem;
+  color: rgb(249, 251, 249);
+  display: flex;
+  justify-content: center;
+}
+
+.blogs h3:hover {
+  color: rgb(16, 102, 2);   
+}
+
+.blogs h3 {
+  color: rgb(43, 247, 12);
+  cursor: pointer;
+}
+
+.blogitem {
+  padding: 1rem;
+}
+
+.container {
+  padding: 0 2rem;
+}
+
+.main {
+  min-height: 100vh;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 1rem;
+  color: white;
+}
+
+
+.main h3 {
+  color: rgb(43, 247, 12);
+}
+
+
+.loaderContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.loader {
+  border: 4px solid rgba(255, 255, 255, 0.3);
+  border-top: 4px solid rgb(43, 247, 12);
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
